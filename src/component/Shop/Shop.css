@@ -1,0 +1,24 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.cart-container {
+  border: 1px solid rgb(255, 255, 255);
+}
+.product-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-row-gap: 12px;
+  border-right: 1px solid #9ca3a3;
+}
+.search-field {
+  background-color: black;
+  height: 50px;
+}
+
+.search-field input {
+  margin-top: 10px;
+  width: 50%;
+}

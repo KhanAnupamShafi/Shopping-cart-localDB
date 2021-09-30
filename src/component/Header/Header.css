@@ -1,0 +1,31 @@
+.header {
+  background: #606c88; /* fallback for old browsers */
+
+  background: linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 2px solid black;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header a:hover {
+  color: #c5ab95;
+}
+
+.header img {
+  height: 50px;
+}
